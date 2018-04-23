@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C346120208E94AB00B70E4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C34611F208E94AB00B70E4D /* AppDelegate.swift */; };
+		6C346122208E94AB00B70E4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C346121208E94AB00B70E4D /* ViewController.swift */; };
+		6C346125208E94AB00B70E4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C346123208E94AB00B70E4D /* Main.storyboard */; };
+		6C346127208E94AB00B70E4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C346126208E94AB00B70E4D /* Assets.xcassets */; };
+		6C34612A208E94AB00B70E4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C346128208E94AB00B70E4D /* LaunchScreen.storyboard */; };
+		DF47154ADF2EBABB41273B42 /* Pods_ThrottleExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AF0B50A12891ECB7207CB5 /* Pods_ThrottleExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3EF06D3066219A229C3700F6 /* Pods-ThrottleExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThrottleExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThrottleExample/Pods-ThrottleExample.release.xcconfig"; sourceTree = "<group>"; };
+		6C34611C208E94AB00B70E4D /* ThrottleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThrottleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C34611F208E94AB00B70E4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C346121208E94AB00B70E4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C346124208E94AB00B70E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C346126208E94AB00B70E4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C346129208E94AB00B70E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C34612B208E94AB00B70E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DBA128DD54E7AA04FF7FB76 /* Pods-ThrottleExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThrottleExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThrottleExample/Pods-ThrottleExample.debug.xcconfig"; sourceTree = "<group>"; };
+		78AF0B50A12891ECB7207CB5 /* Pods_ThrottleExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThrottleExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C346119208E94AB00B70E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF47154ADF2EBABB41273B42 /* Pods_ThrottleExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38CE33201A6EF6849CBEF569 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DBA128DD54E7AA04FF7FB76 /* Pods-ThrottleExample.debug.xcconfig */,
+				3EF06D3066219A229C3700F6 /* Pods-ThrottleExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D4D541388F2898FABAEE42C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78AF0B50A12891ECB7207CB5 /* Pods_ThrottleExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C346113208E94AB00B70E4D = {
+			isa = PBXGroup;
+			children = (
+				6C34611E208E94AB00B70E4D /* ThrottleExample */,
+				6C34611D208E94AB00B70E4D /* Products */,
+				38CE33201A6EF6849CBEF569 /* Pods */,
+				5D4D541388F2898FABAEE42C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C34611D208E94AB00B70E4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C34611C208E94AB00B70E4D /* ThrottleExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C34611E208E94AB00B70E4D /* ThrottleExample */ = {
+			isa = PBXGroup;
+			children = (
+				6C34611F208E94AB00B70E4D /* AppDelegate.swift */,
+				6C346121208E94AB00B70E4D /* ViewController.swift */,
+				6C346123208E94AB00B70E4D /* Main.storyboard */,
+				6C346126208E94AB00B70E4D /* Assets.xcassets */,
+				6C346128208E94AB00B70E4D /* LaunchScreen.storyboard */,
+				6C34612B208E94AB00B70E4D /* Info.plist */,
+			);
+			path = ThrottleExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C34611B208E94AB00B70E4D /* ThrottleExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C34612E208E94AB00B70E4D /* Build configuration list for PBXNativeTarget "ThrottleExample" */;
+			buildPhases = (
+				75079E4A3E9341CFBEB3B06D /* [CP] Check Pods Manifest.lock */,
+				6C346118208E94AB00B70E4D /* Sources */,
+				6C346119208E94AB00B70E4D /* Frameworks */,
+				6C34611A208E94AB00B70E4D /* Resources */,
+				0535D4D8C328E7B96604C379 /* [CP] Embed Pods Frameworks */,
+				2602F9F947E0F643888ACC5A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThrottleExample;
+			productName = ThrottleExample;
+			productReference = 6C34611C208E94AB00B70E4D /* ThrottleExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C346114208E94AB00B70E4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Fernando Mota e Silva";
+				TargetAttributes = {
+					6C34611B208E94AB00B70E4D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6C346117208E94AB00B70E4D /* Build configuration list for PBXProject "ThrottleExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C346113208E94AB00B70E4D;
+			productRefGroup = 6C34611D208E94AB00B70E4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C34611B208E94AB00B70E4D /* ThrottleExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C34611A208E94AB00B70E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C34612A208E94AB00B70E4D /* LaunchScreen.storyboard in Resources */,
+				6C346127208E94AB00B70E4D /* Assets.xcassets in Resources */,
+				6C346125208E94AB00B70E4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0535D4D8C328E7B96604C379 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ThrottleExample/Pods-ThrottleExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThrottleExample/Pods-ThrottleExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2602F9F947E0F643888ACC5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThrottleExample/Pods-ThrottleExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75079E4A3E9341CFBEB3B06D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThrottleExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C346118208E94AB00B70E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C346122208E94AB00B70E4D /* ViewController.swift in Sources */,
+				6C346120208E94AB00B70E4D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C346123208E94AB00B70E4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C346124208E94AB00B70E4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C346128208E94AB00B70E4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C346129208E94AB00B70E4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C34612C208E94AB00B70E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C34612D208E94AB00B70E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C34612F208E94AB00B70E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DBA128DD54E7AA04FF7FB76 /* Pods-ThrottleExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QVJSYWH4GV;
+				INFOPLIST_FILE = ThrottleExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.halphdem.ThrottleExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C346130208E94AB00B70E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EF06D3066219A229C3700F6 /* Pods-ThrottleExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QVJSYWH4GV;
+				INFOPLIST_FILE = ThrottleExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.halphdem.ThrottleExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C346117208E94AB00B70E4D /* Build configuration list for PBXProject "ThrottleExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C34612C208E94AB00B70E4D /* Debug */,
+				6C34612D208E94AB00B70E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C34612E208E94AB00B70E4D /* Build configuration list for PBXNativeTarget "ThrottleExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C34612F208E94AB00B70E4D /* Debug */,
+				6C346130208E94AB00B70E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C346114208E94AB00B70E4D /* Project object */;
+}

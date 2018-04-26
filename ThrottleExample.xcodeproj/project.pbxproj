@@ -13,6 +13,8 @@
 		6C346127208E94AB00B70E4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C346126208E94AB00B70E4D /* Assets.xcassets */; };
 		6C34612A208E94AB00B70E4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C346128208E94AB00B70E4D /* LaunchScreen.storyboard */; };
 		DF47154ADF2EBABB41273B42 /* Pods_ThrottleExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AF0B50A12891ECB7207CB5 /* Pods_ThrottleExample.framework */; };
+		ED6C228D20912DC80072F19F /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C228C20912DC80072F19F /* DB.swift */; };
+		ED6C228F20912DD80072F19F /* NameRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C228E20912DD80072F19F /* NameRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		6C34612B208E94AB00B70E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DBA128DD54E7AA04FF7FB76 /* Pods-ThrottleExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThrottleExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThrottleExample/Pods-ThrottleExample.debug.xcconfig"; sourceTree = "<group>"; };
 		78AF0B50A12891ECB7207CB5 /* Pods_ThrottleExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThrottleExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6C228C20912DC80072F19F /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
+		ED6C228E20912DD80072F19F /* NameRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 		6C34611E208E94AB00B70E4D /* ThrottleExample */ = {
 			isa = PBXGroup;
 			children = (
+				ED6C228B20912C870072F19F /* Repositories */,
 				6C34611F208E94AB00B70E4D /* AppDelegate.swift */,
 				6C346121208E94AB00B70E4D /* ViewController.swift */,
 				6C346123208E94AB00B70E4D /* Main.storyboard */,
@@ -86,6 +91,15 @@
 				6C34612B208E94AB00B70E4D /* Info.plist */,
 			);
 			path = ThrottleExample;
+			sourceTree = "<group>";
+		};
+		ED6C228B20912C870072F19F /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				ED6C228C20912DC80072F19F /* DB.swift */,
+				ED6C228E20912DD80072F19F /* NameRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6C228F20912DD80072F19F /* NameRepository.swift in Sources */,
 				6C346122208E94AB00B70E4D /* ViewController.swift in Sources */,
 				6C346120208E94AB00B70E4D /* AppDelegate.swift in Sources */,
+				ED6C228D20912DC80072F19F /* DB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

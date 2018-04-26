@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,13 +13,71 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ThrottleExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="nVw-Wg-sT9">
+                                <rect key="frame" x="0.0" y="20" width="320" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="3eQ-bo-Y9b"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ddb-qW-xp7">
+                                <rect key="frame" x="0.0" y="76" width="320" height="492"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="celula" id="vqD-so-EiS">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vqD-so-EiS" id="0ru-4K-dAT">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ATc-60-UA4">
+                                <rect key="frame" x="0.0" y="76" width="320" height="492"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="npg-SY-Oka">
+                                        <rect key="frame" x="142" y="228" width="37" height="37"/>
+                                        <color key="color" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="npg-SY-Oka" firstAttribute="top" secondItem="ATc-60-UA4" secondAttribute="top" constant="228" id="JXR-bt-EKL"/>
+                                    <constraint firstAttribute="bottom" secondItem="npg-SY-Oka" secondAttribute="bottom" constant="227" id="NOz-Ds-c9k"/>
+                                    <constraint firstAttribute="trailing" secondItem="npg-SY-Oka" secondAttribute="trailing" constant="141" id="s6O-8s-JLB"/>
+                                    <constraint firstItem="npg-SY-Oka" firstAttribute="leading" secondItem="ATc-60-UA4" secondAttribute="leading" constant="142" id="tYQ-2V-BtB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nVw-Wg-sT9" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="19h-Tx-sDc"/>
+                            <constraint firstAttribute="trailing" secondItem="ATc-60-UA4" secondAttribute="trailing" id="4bz-l6-Shs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ddb-qW-xp7" secondAttribute="bottom" id="J95-9i-E6m"/>
+                            <constraint firstItem="nVw-Wg-sT9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Noy-qR-dv6"/>
+                            <constraint firstItem="nVw-Wg-sT9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Phw-fE-VMJ"/>
+                            <constraint firstItem="ddb-qW-xp7" firstAttribute="top" secondItem="nVw-Wg-sT9" secondAttribute="bottom" id="gnW-5L-mry"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ddb-qW-xp7" secondAttribute="trailing" id="hJd-Ll-rkc"/>
+                            <constraint firstItem="ddb-qW-xp7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="izg-57-FDO"/>
+                            <constraint firstItem="ATc-60-UA4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kGK-Hd-Jvc"/>
+                            <constraint firstItem="ATc-60-UA4" firstAttribute="top" secondItem="nVw-Wg-sT9" secondAttribute="bottom" id="uz0-iC-ikB"/>
+                            <constraint firstAttribute="bottom" secondItem="ATc-60-UA4" secondAttribute="bottom" id="ySW-tP-xbc"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="loadingHolder" destination="ATc-60-UA4" id="AOp-J7-2wa"/>
+                        <outlet property="loadingIndicator" destination="npg-SY-Oka" id="PET-U9-euO"/>
+                        <outlet property="search" destination="nVw-Wg-sT9" id="xBt-mK-3mG"/>
+                        <outlet property="table" destination="ddb-qW-xp7" id="N7q-Ub-Hlz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
